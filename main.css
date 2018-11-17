@@ -1,0 +1,242 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+.wrapper{
+    height: 8000px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(220, 220, 220);
+}
+.rubrik{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    height: 40px;
+    width: 100%;
+    float: left;
+    background-color: bisque;
+}
+nav a{
+    display: inline-block;
+    height: 40px;
+    width: 23.9%;
+    color: whitesmoke;
+    background-color: darkgray; 
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: center;  
+}   
+a + a{
+    margin-left: 1.2%
+}
+nav a:hover{
+    background-color: #45a049;
+}
+nav a:visited{
+    color: black;
+}
+h1{
+    font-family: 'Open Sans';
+    font-size: 40px;
+    color: #aaa;
+    line-height: 80px;
+    vertical-align: middle;
+    margin-left: 5%;
+    text-decoration: none;
+}
+h2{
+    font-family: 'Open Sans';
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    line-height: 35px;
+    vertical-align: middle;
+    margin-left: 35%;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 255, 34);
+}
+.bild1{
+    width: 45%;
+    float: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+.info1{
+    float: left;
+    width: 37%;
+    height: 513px;
+    background-color: rgb(220, 220, 220); 
+    margin-top: 3%;
+    margin-left: 5%;
+}
+h3{
+    font-family: 'Open Sans';
+    font-size: 45px;
+    color: black;
+    line-height: 100px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 50px;
+}
+.dag1{
+    background-color: rgb(134, 170, 199);
+    height: 500px;
+    width: 20%;
+    float: left;
+    margin-left: 3.3%;
+    margin-top: 25px;
+}
+.dag0{
+    background-color: rgb(134, 170, 199);
+    height: 500px;
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+p{
+    font-family: Helvetica;
+    font-size: 20px;
+    margin: 10px;
+}
+h4{
+    font-size: 25px;
+    text-decoration: black;
+    margin: 10px;
+}
+.info2{
+    background-color: rgb(220, 220, 220);
+    height: 441px;
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+h5{
+    font-size: 25px;
+    text-align: left;
+    text-decoration: black;
+    margin: 10px;
+}
+.bild2{
+    width: 45%;
+    float: right;
+    margin-top: 16px;
+    margin-right: 5%;
+}
+.boende1{
+    background-color: rgb(134, 170, 199);
+    height: 431px;
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.bild3{
+    width: 45%;
+    float: right;
+    margin-top: 1.3%;
+    margin-right: 5%;
+}
+.bild5{
+    width: 20%;
+    float: right;
+    margin-top: 0.1%;
+    margin-right: 0.1%;
+}
+.bild4{
+    height: 430px;
+    width: 45%;
+    float: right;
+    margin-top: 28px;
+    margin-right: 5%;
+}
+.boende2{
+    background-color: rgb(134, 170, 199);
+    height: 420px;
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.boende3{
+    background-color: rgb(134, 170, 199);
+    height: 429px;
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.bild6{
+    width: 45%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+.anmälan{
+    width: 100%;
+    height: 500px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=tel], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.formulär {
+    width: 1000px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
